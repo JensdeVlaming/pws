@@ -1,0 +1,81 @@
+.front {
+    height: 100vh;
+}
+.front::after {
+    content: "";
+    background: url('front.jpeg');
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+.contactForm {
+    height: 93vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.top-padding {
+    padding-top: 70px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.sub-title {
+    font-weight: 450;
+}
+
+.dsub-title {
+    font-weight: 300;
+}
+
+.scroll a {
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: black;
+    font : normal 800 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.scroll a:hover {
+    opacity: .5;
+}
+  
+#scroll a {
+    padding-top: 60px;
+}
+
+#scroll a span {
+    position: absolute;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+div.anchor {
+    display: block;
+    position: relative;
+    top: -20vh;
+    visibility: hidden;
+}
+
